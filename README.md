@@ -48,3 +48,15 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:3fb950&height=120&section=footer" width="100%" />
 
 </div>
+
+### 🐍 Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/apipniko/apipniko/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/apipniko/apipniko/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
+</div>
+
