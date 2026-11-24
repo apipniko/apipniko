@@ -10,13 +10,6 @@
 
 ---
 
-### 👋 Hey, saya Nickss
-
-- 🔭 Lagi belajar full-stack development
-- 📱 Bikin aplikasi mobile (Flutter) & web
-- 🌱 Suka eksplor framework & tools baru
-- 📫 Reach me: buka issue aja di repo mana pun
-
 ### 🛠️ Tech Stack
 
 <div align="center">
