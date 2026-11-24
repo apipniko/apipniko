@@ -10,7 +10,7 @@
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 <div align="center">
 
@@ -22,7 +22,7 @@
 
 </div>
 
-### 📊 GitHub Stats
+### GitHub Stats
 
 <div align="center">
 
@@ -33,15 +33,9 @@
 
 </div>
 
-### 🏆 Trophies
 
-<div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=apipniko&theme=tokyonight&no-frame=true&row=1&column=6" width="100%" />
-
-</div>
-
-### 📈 Activity Graph
+### Activity Graph
 
 <div align="center">
 
