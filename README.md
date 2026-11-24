@@ -10,7 +10,7 @@
 
 ---
 
-<div align ="center"> ### Tech Stack </div>
+### Tech Stack
 
 <div align="center">
 
