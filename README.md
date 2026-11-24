@@ -1,7 +1,4 @@
 <div align="center">
-
-# Hi, saya Nickss 👋
-
 ![Atom](https://img.shields.io/badge/status-coding-blue?style=flat-square&logo=atom)
 ![Followers](https://img.shields.io/github/followers/apipniko?style=flat-square&label=followers)
 
