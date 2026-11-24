@@ -8,11 +8,6 @@
 
 ---
 
-### 🌱 Tentang saya
-
-- 🔭 Lagi belajar full-stack development
-- 📱 Suka bikin aplikasi mobile (Flutter) & web
-- 🎯 Target 2026: push project tiap bulan
 
 ### 🛠️ Tech Stack
 
@@ -45,8 +40,4 @@
 
 ---
 
-<div align="center">
 
-**"Coding is my playground 🎮"**
-
-</div>
