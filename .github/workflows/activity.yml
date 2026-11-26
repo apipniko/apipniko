@@ -2,13 +2,7 @@ name: Daily activity log
 
 on:
   schedule:
-    # Several chances per day, because GitHub can delay or drop a scheduled run.
-    # Every run is idempotent: once the day is logged, the rest are no-ops.
-    - cron: '17 1 * * *'
-    - cron: '17 5 * * *'
-    - cron: '17 9 * * *'
-    - cron: '17 13 * * *'
-    - cron: '17 17 * * *'
+    - cron: '17 */2 * * *'
   workflow_dispatch:
 
 permissions:
