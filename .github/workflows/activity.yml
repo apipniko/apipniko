@@ -1,0 +1,43 @@
+name: Daily activity log
+
+on:
+  schedule:
+    # Several chances per day, because GitHub can delay or drop a scheduled run.
+    # Every run is idempotent: once the day is logged, the rest are no-ops.
+    - cron: '17 1 * * *'
+    - cron: '17 5 * * *'
+    - cron: '17 9 * * *'
+    - cron: '17 13 * * *'
+    - cron: '17 17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity-log
+  cancel-in-progress: false
+
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Write today's entry
+        run: python3 .github/scripts/activity.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "FeizenF"
+          git config user.email "FeizenF@users.noreply.github.com"
+          git add activity.log README.md
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore(activity): $(date -u +'%Y-%m-%d')"
+          git push
