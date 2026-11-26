@@ -76,10 +76,8 @@ def update_readme(now: dt.datetime) -> None:
 
 def main() -> None:
     now = dt.datetime.now(dt.timezone.utc)
-    if update_log(now):
-        update_readme(now)
-    else:
-        print("nothing new, leaving README untouched")
+    update_log(now)
+    update_readme(now) 
 
 
 if __name__ == "__main__":
