@@ -35,18 +35,4 @@
 
 
 
-### Activity Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=apipniko&bg_color=0d1117&color=e6edf3&line=3fb950&point=3fb950&area=true&hide_border=true" width="100%" />
-
-</div>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:3fb950&height=120&section=footer" width="100%" />
-
-</div>
-
 
